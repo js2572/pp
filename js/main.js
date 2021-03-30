@@ -50,11 +50,7 @@ jQuery(document).ready(function(){
         
     });
     
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},1000);
-	});
+	
     var swiper = new Swiper('.swiper-container', {
         loop: true, 
         autoplay :{
